@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;900&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+ 
+</head>
+<body>
+
+
+
+  <div class="main-container">
+    <div class="page-1">
+      <div role="favorite" class="star-container">
+        <img class="star-img" src="images/icon-star.svg" alt="">
+      </div>
+
+    <h1>How did we do?</h1>
+    <p>  Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+
+      <button id="1" class="btn"><span>1</span></button>
+      <button id="2" class="btn"><span>2</span></button>
+      <button id="3" class="btn"><span>3</span></button>
+      <button id="4" class="btn"><span>4</span></button>
+      <button id="5" class="btn" style="margin: 0;"><span>5</span></button>
+      <button class="submit-btn">SUBMIT</button>
+    </div>
+
+    <div class="page-2 hide" >
+      <div class="ty-img">
+        <img src="images/illustration-thank-you.svg" alt="">
+      </div>
+
+      <div class="acknowledgement">
+ You selected <!-- Add rating here --> out of 5
+
+        
+      </div>
+
+      <h1>
+  Thank you!
+
+      </h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+        don't hesitate to get in touch!</p>
+
+
+    </div>
+      
+
+  </div>
+
+
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
